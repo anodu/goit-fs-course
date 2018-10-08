@@ -1,0 +1,110 @@
+body {
+  margin: 0 auto; 
+  width: 1110px;
+}
+.wrapper {
+  width: 1110px;
+  margin: 0, auto;
+  background-color: #fff;
+}
+.logo {
+  margin: 0;
+  text-transform: uppercase;
+  float: left;
+}
+h1::first-letter {
+  color: #1abc9c;
+}
+ul {
+   margin: 0;
+   padding: 0;
+}
+.clearfix::after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ .menu_list {
+    float: right;
+ }
+ .head {
+    padding-top: 35px;
+ }
+.menu_list_item {
+   list-style: none;
+   float: left;
+   margin-right: 30px;
+   padding-top: 10px;
+}
+.menu_list_item:last-child {
+   margin-right: 0px;
+}
+.menu_link {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: black;
+   font-size: 14px;
+}
+.menu_link:hover {
+   color: #1abc9c;
+}
+.headline {
+   text-transform: uppercase;
+   color: #515151;
+   font-size: 48px;
+   text-align: center;
+   margin-top: 110px;
+}
+.headline::after{
+   content: "";
+   display: block;
+   width: 160px;
+   margin: 0 auto;
+   border-bottom: 6px solid #1abc9c;
+   margin-top: 30px;
+   margin-bottom: 90px;
+}
+.card:not(:nth-child(4n)){
+   margin-right: 30px;
+}
+.card:nth-child(n+4) {
+   margin-bottom: 30px;
+}
+.card-foto {
+   font-size: 0px;
+   margin: 0;
+   padding: 0;
+}
+.card {
+   float: left;
+   width: 255px;
+   height: 325px;
+}
+.card-name {
+   float: left;
+   text-transform: uppercase;
+   width: 200px;
+   height: 40px;
+   background-color: #323232;
+   margin: 0;
+   padding: 0;
+   color: #fff;
+   text-align: left;
+   font-size: 18px;
+}
+.card-price {
+   display: inline-block;
+   font-size: 18px;
+   color: #fff;
+   background-color: #8c8c8c;
+   width: 55px;
+   height: 40px;
+   margin: 0;
+   padding: 0;
+}
+.card:hover .card-name{
+  background-color: #1abc9c;
+}
+.card:hover .card-price{
+   background-color: #7fd9c7;
+ }
