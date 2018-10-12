@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   width: 1110px;
+  margin-bottom: 80px;
 }
 .wrapper {
   width: 1110px;
@@ -11,9 +12,14 @@ body {
   margin: 0;
   text-transform: uppercase;
   float: left;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 30px;
 }
 h1::first-letter {
   color: #1abc9c;
+  font-family: "Roboto";
+  font-weight: 900;
 }
 ul {
   margin: 0;
@@ -44,6 +50,8 @@ ul {
   text-transform: uppercase;
   color: black;
   font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 700;
 }
 .menu_link:hover {
   color: #1abc9c;
@@ -54,6 +62,8 @@ ul {
   font-size: 48px;
   text-align: center;
   margin-top: 110px;
+  font-family: "Roboto";
+  font-weight: 900;
 }
 .headline::after {
   content: "";
@@ -67,21 +77,21 @@ ul {
 .card:not(:nth-child(4n)) {
   margin-right: 30px;
 }
-.card:nth-child(-n+4) {
-   margin-bottom: 30px;
+.card:nth-child(-n + 4) {
+  margin-bottom: 30px;
 }
-.card:nth-child(n+5) {
+.card:nth-child(n + 5) {
   margin-bottom: 100px;
 }
 .card-foto {
-  font-size: 0px;
   margin: 0;
   padding: 0;
+  margin-bottom: -4px;
 }
 .card {
   float: left;
   width: 255px;
-  height: 325px;
+  height: 320px;
 }
 .card-name {
   float: left;
@@ -94,6 +104,10 @@ ul {
   color: #fff;
   text-align: left;
   font-size: 18px;
+  line-height: 2.2;
+  text-indent: 10px;
+  font-family: "Roboto";
+  font-weight: 900;
 }
 .card-price {
   display: inline-block;
@@ -104,6 +118,10 @@ ul {
   height: 40px;
   margin: 0;
   padding: 0;
+  line-height: 2.2;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 900;
 }
 .card:hover .card-name {
   background-color: #1abc9c;
@@ -116,6 +134,8 @@ ul {
   color: #555252;
   font-size: 48px;
   text-align: center;
+  font-family: "Roboto";
+  font-weight: 900;
 }
 .heading-news::after {
   content: "";
@@ -127,32 +147,52 @@ ul {
   margin-bottom: 90px;
 }
 .news:not(:nth-child(4n)) {
-   margin-right: 30px;
+  margin-right: 30px;
 }
 .news {
-   float: left;
-   width: 350px;
-   height: 495px;
+  float: left;
+  width: 350px;
+  height: 495px;
 }
 .foto-news {
-   margin-bottom: 17px;
+  margin-bottom: 17px;
 }
 .title-news {
-   margin: 0;
+  margin: 0;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
 }
 .title-news::after {
-   content: "";
-   display: block;
-   width: 136px;
-   margin-left: 0px;
-   border-bottom: 3px solid #1abc9c;
-   margin-top: 13px;
-   margin-bottom: 27px;
+  content: "";
+  display: block;
+  width: 136px;
+  margin-left: 0px;
+  border-bottom: 3px solid #1abc9c;
+  margin-top: 13px;
+  margin-bottom: 27px;
 }
 .text-news {
-   margin: 0;
-   margin-bottom: 17px;
+  margin: 0;
+  margin-bottom: 17px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
 }
 .news-link {
-   text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+  width: 160px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #1abc9c;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 3.3;
+  color: #fff;
 }
