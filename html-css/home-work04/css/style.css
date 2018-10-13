@@ -196,3 +196,9 @@ ul {
   line-height: 3.3;
   color: #fff;
 }
+.featured {
+  background-color: red;
+}
+.latest-news {
+  background-color: blue;
+}
