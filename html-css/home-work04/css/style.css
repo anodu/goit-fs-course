@@ -15,6 +15,7 @@ body {
   font-family: "Roboto";
   font-weight: 300;
   font-size: 30px;
+  color: #555252;
 }
 h1::first-letter {
   color: #1abc9c;
@@ -32,6 +33,7 @@ ul {
 }
 .menu_list {
   float: right;
+  color: #0f0101;
 }
 .head {
   padding-top: 35px;
@@ -84,9 +86,9 @@ ul {
   margin-bottom: 100px;
 }
 .card-foto {
-  margin: 0;
-  padding: 0;
-  margin-bottom: -4px;
+display: block;
+width: 100%;
+background-color: rgb(233, 240, 253);
 }
 .card {
   float: left;
@@ -113,7 +115,7 @@ ul {
   display: inline-block;
   font-size: 18px;
   color: #fff;
-  background-color: #8c8c8c;
+  background-color: rgba(0, 0, 0, .44);
   width: 55px;
   /* height: 40px; */
   margin: 0;
@@ -163,6 +165,7 @@ ul {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.5;
+  color: #555252;
 }
 .title-news::after {
   content: "";
@@ -180,6 +183,7 @@ ul {
   font-size: 14px;
   line-height: 1.6;
   text-align: justify;
+  color: #555252;
 }
 .news-link {
   display: inline-block;
@@ -196,9 +200,9 @@ ul {
   line-height: 3.3;
   color: #fff;
 }
-.featured {
+/* .featured {
   background-color: red;
 }
 .latest-news {
   background-color: blue;
-}
+} */
