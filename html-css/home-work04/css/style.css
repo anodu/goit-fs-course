@@ -93,7 +93,7 @@ background-color: rgb(233, 240, 253);
 .card {
   float: left;
   width: 255px;
-  height: 320px;
+  /* height: 320px; */
 }
 .card-name {
   float: left;
