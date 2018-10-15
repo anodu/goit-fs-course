@@ -1,311 +1,311 @@
 body {
-   margin: 0 auto;
-   width: 1600px;
- }
- .wrapper {
-   background-color: #fff;
- }
- .head {
-   width: 1110px;
-   margin: 0 auto;
-   margin-bottom: 30px;
- }
- .logo {
-   margin: 0;
-   text-transform: uppercase;
-   float: left;
-   font-family: "Roboto";
-   font-weight: 300;
-   font-size: 30px;
-   color: #555252;
- }
- h1::first-letter {
-   color: #1abc9c;
-   font-family: "Roboto";
-   font-weight: 900;
- }
- ul {
-   margin: 0;
-   padding: 0;
- }
- .clearfix::after {
-   content: "";
-   display: table;
-   clear: both;
- }
- .menu_list {
-   float: right;
-   color: #0f0101;
- }
- .head {
-   padding-top: 35px;
- }
- .menu_list_item {
-   list-style: none;
-   float: left;
-   margin-right: 30px;
-   padding-top: 10px;
- }
- .menu_list_item:last-child {
-   margin-right: 0px;
- }
- .menu_link {
-   text-decoration: none;
-   text-transform: uppercase;
-   color: black;
-   font-size: 14px;
-   font-family: "Open Sans";
-   font-weight: 700;
- }
- .menu_link:hover {
-   color: #1abc9c;
- }
- 
- .slider {
-   position: relative;
-   height: 600px;
-   background: linear-gradient(
-       to right,
-       rgba(0, 0, 2, 0.52) 0%,
-       rgba(0, 0, 2, 0.52) 0%
-     ),
-     url("../img/slider/slider1.png") center/cover no-repeat;
- }
- .left-btn {
-   position: absolute;
-   top: 225px;
-   left: 245px;
-   background-color: #4ec6ab;
-   border: 0;
-   cursor: pointer;
-   padding: 0;
- }
- .caption {
-   position: absolute;
-   font-family: "Roboto";
-   font-weight: 900;
-   color: #fff;
-   font-size: 60px;
-   text-transform: uppercase;
-   top: 216px;
-   left: 410px;
-   margin: 0;
- }
- .sub-capt {
-   position: absolute;
-   font-family: "Roboto";
-   font-weight: 300;
-   font-size: 24px;
-   color: #fff;
-   text-transform: uppercase;
-   top: 290px;
-   left: 410px;
-   margin: 0;
- }
- .right-btn {
-   position: absolute;
-   top: 225px;
-   left: 1260px;
-   background-color: #4ec6ab;
-   border: 0;
-   cursor: pointer;
-   padding: 0;
- }
- 
- .headline {
-   text-transform: uppercase;
-   color: #515151;
-   font-size: 48px;
-   text-align: center;
-   margin-top: 0px;
-   font-family: "Roboto";
-   font-weight: 900;
-   padding-top: 90px;
-   margin: 0;
- }
- .headline::after {
-   content: "";
-   display: block;
-   width: 160px;
-   margin: 0 auto;
-   border-bottom: 6px solid #1abc9c;
-   margin-top: 30px;
-   margin-bottom: 90px;
- }
- .new-collection {
-   background-color: rgb(233, 240, 253);
- }
- .card-collection {
-   padding-left: 245px;
- }
- .card:not(:nth-child(4n)) {
-   margin-right: 30px;
- }
- .card:nth-child(-n + 4) {
-   margin-bottom: 100px;
- }
- .card:nth-child(n + 5) {
-   margin-bottom: 100px;
- }
- .card-foto {
-   display: block;
-   width: 100%;
-   background-color: rgb(233, 240, 253);
- }
- .card {
-   position: relative;
-   float: left;
-   width: 255px;
- }
- .card-name {
-   float: left;
-   text-transform: uppercase;
-   width: 200px;
-   background-color: #323232;
-   margin: 0;
-   padding: 0;
-   color: #fff;
-   text-align: left;
-   font-size: 18px;
-   line-height: 2.2;
-   text-indent: 10px;
-   font-family: "Roboto";
-   font-weight: 900;
- }
- .card-price {
-   display: inline-block;
-   font-size: 18px;
-   color: #fff;
-   background-color: rgba(50, 50, 50, 0.44);
-   width: 55px;
-   margin: 0;
-   padding: 0;
-   line-height: 2.2;
-   text-align: center;
-   font-family: "Roboto";
-   font-weight: 900;
- }
- .card:hover .card-name {
-   background-color: #1abc9c;
- }
- .card:hover .card-price {
-   background-color: #7fd9c7;
- }
- .card:hover .overlay {
-   opacity: 1;
- }
- .overlay {
-   position: absolute;
-   display: block;
-   width: 235px;
-   height: 260px;
-   background-color: rgba(0, 0, 0, 0.55);
-   opacity: 0;
-   left: 10px;
-   top: 10px;
- }
- .over-butt {
-   position: absolute;
-   text-decoration: none;
-   color: #fff;
-   text-transform: uppercase;
-   left: 35px;
-   top: 135px;
-   width: 165px;
-   border: 1px solid #fff;
-   background-color: rgba(0, 0, 0, -0.5);
-   line-height: 3.5;
-   font-size: 14px;
-   font-family: "Open Sans";
-   cursor: pointer;
-   text-align: right;
-   padding: 0;
- }
- .over-text {
-   margin-right: 20px;
- }
- .over-img {
-   position: absolute;
-   top: 0px;
-   left: 0px;
- }
- .over-butt:hover {
-   background-color: rgba(0, 0, 0, 0.55);
- }
- .over-like {
-   display: block;
-   position: absolute;
-   top: 80px;
-   left: 35px;
-   background-color: rgba(0, 0, 0, -0.5);
-   border-bottom: 1px solid #fff;
-   margin: 0;
-   padding: 0;
-   cursor: pointer;
- }
- .over-arr {
-   display: block;
-   position: absolute;
-   top: 80px;
-   left: 92px;
-   background-color: rgba(0, 0, 0, -0.5);
-   border-bottom: 1px solid #fff;
-   margin: 0;
-   padding: 0;
-   cursor: pointer;
- }
- .over-clock {
-   display: block;
-   position: absolute;
-   top: 80px;
-   left: 150px;
-   background-color: rgba(0, 0, 0, -0.5);
-   border: 1px solid #fff;
-   margin: 0;
-   padding: 0;
-   cursor: pointer;
- }
- button:focus {
-   outline: none;
- }
- .over-like:hover {
-   background-color: rgb(26, 188, 156);
-   border: 1px solid #1abc9c;
- }
- .over-arr:hover {
-   background-color: rgb(26, 188, 156);
-   border: 1px solid #1abc9c;
- }
- .over-clock:hover {
-   background-color: rgb(26, 188, 156);
-   border: 1px solid #1abc9c;
- }
- .foot {
-   display: inline-block;
-   width: 1600px;
-   background-color: rgb(50, 50, 50);
- }
- .foot-text {
-   display: inline-block;
-   color: #fff;
-   text-transform: capitalize;
-   font-family: "Open Sans";
-   font-size: 16px;
-   margin: 0 auto;
-   padding-left: 610px;
-   padding-top: 36px;
-   padding-bottom: 36px;
- }
- .foot-link {
-   display: inline-block;
-   text-align: center;
-   color: #fff;
-   text-transform: capitalize;
-   word-spacing: -0.3em;
-   text-decoration: none;
-   font-family: "Open Sans";
-   font-size: 16px;
- }
- .foot-link:hover {
-   color: #46bfa9;
- }
+  margin: 0 auto;
+  width: 1600px;
+}
+.wrapper {
+  background-color: #fff;
+}
+.head {
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.logo {
+  margin: 0;
+  text-transform: uppercase;
+  float: left;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 30px;
+  color: #555252;
+}
+h1::first-letter {
+  color: #1abc9c;
+  font-family: "Roboto";
+  font-weight: 900;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.menu_list {
+  float: right;
+  color: #0f0101;
+}
+.head {
+  padding-top: 35px;
+}
+.menu_list_item {
+  list-style: none;
+  float: left;
+  margin-right: 30px;
+  padding-top: 10px;
+}
+.menu_list_item:last-child {
+  margin-right: 0px;
+}
+.menu_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+.menu_link:hover {
+  color: #1abc9c;
+}
+
+.slider {
+  position: relative;
+  height: 600px;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 2, 0.52) 0%,
+      rgba(0, 0, 2, 0.52) 0%
+    ),
+    url("../img/slider/slider1.png") center/cover no-repeat;
+}
+.left-btn {
+  position: absolute;
+  top: 225px;
+  left: 245px;
+  background-color: #4ec6ab;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+.caption {
+  position: absolute;
+  font-family: "Roboto";
+  font-weight: 900;
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  top: 216px;
+  left: 410px;
+  margin: 0;
+}
+.sub-capt {
+  position: absolute;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  top: 290px;
+  left: 410px;
+  margin: 0;
+}
+.right-btn {
+  position: absolute;
+  top: 225px;
+  left: 1260px;
+  background-color: #4ec6ab;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+
+.headline {
+  text-transform: uppercase;
+  color: #515151;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 0px;
+  font-family: "Roboto";
+  font-weight: 900;
+  padding-top: 90px;
+  margin: 0;
+}
+.headline::after {
+  content: "";
+  display: block;
+  width: 160px;
+  margin: 0 auto;
+  border-bottom: 6px solid #1abc9c;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.new-collection {
+  background-color: rgb(233, 240, 253);
+}
+.card-collection {
+  padding-left: 245px;
+}
+.card:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+.card:nth-child(-n + 4) {
+  margin-bottom: 100px;
+}
+.card:nth-child(n + 5) {
+  margin-bottom: 100px;
+}
+.card-foto {
+  display: block;
+  width: 100%;
+  background-color: rgb(233, 240, 253);
+}
+.card {
+  position: relative;
+  float: left;
+  width: 255px;
+}
+.card-name {
+  float: left;
+  text-transform: uppercase;
+  width: 200px;
+  background-color: #323232;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+  line-height: 2.2;
+  text-indent: 10px;
+  font-family: "Roboto";
+  font-weight: 900;
+}
+.card-price {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgba(50, 50, 50, 0.44);
+  width: 55px;
+  margin: 0;
+  padding: 0;
+  line-height: 2.2;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 900;
+}
+.card:hover .card-name {
+  background-color: #1abc9c;
+}
+.card:hover .card-price {
+  background-color: #7fd9c7;
+}
+.card:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  display: block;
+  width: 235px;
+  height: 260px;
+  background-color: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  left: 10px;
+  top: 10px;
+}
+.over-butt {
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  left: 35px;
+  top: 135px;
+  width: 165px;
+  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, -0.5);
+  line-height: 3.5;
+  font-size: 14px;
+  font-family: "Open Sans";
+  cursor: pointer;
+  text-align: right;
+  padding: 0;
+}
+.over-text {
+  margin-right: 20px;
+}
+.over-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.over-butt:hover {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.over-like {
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 35px;
+  background-color: rgba(0, 0, 0, -0.5);
+  border-bottom: 1px solid #fff;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.over-arr {
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 92px;
+  background-color: rgba(0, 0, 0, -0.5);
+  border-bottom: 1px solid #fff;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.over-clock {
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 150px;
+  background-color: rgba(0, 0, 0, -0.5);
+  border: 1px solid #fff;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+.over-like:hover {
+  background-color: rgb(26, 188, 156);
+  border: 1px solid #1abc9c;
+}
+.over-arr:hover {
+  background-color: rgb(26, 188, 156);
+  border: 1px solid #1abc9c;
+}
+.over-clock:hover {
+  background-color: rgb(26, 188, 156);
+  border: 1px solid #1abc9c;
+}
+.foot {
+  display: inline-block;
+  width: 1600px;
+  background-color: rgb(50, 50, 50);
+}
+.foot-text {
+  display: inline-block;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Open Sans";
+  font-size: 16px;
+  margin: 0 auto;
+  padding-left: 610px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.foot-link {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  word-spacing: -0.3em;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+.foot-link:hover {
+  color: #46bfa9;
+}
