@@ -1,7 +1,6 @@
 body {
   margin: 0 auto;
   width: 1600px;
-  margin-bottom: 80px;
 }
 .wrapper {
   background-color: #fff;
@@ -9,6 +8,7 @@ body {
 .head {
   width: 1110px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 .logo {
   margin: 0;
@@ -62,18 +62,21 @@ ul {
 }
 
 .slider {
-   position: relative;
-   width: 1600px;
    height: 600px;
-   background-image: url(../img/slider/slider1.png);
-   /* background: rgba(0, 0, 2, .52); */
+   background: linear-gradient(
+      to right,
+       rgba(0, 0, 2, .52) 0%,
+       rgba(0, 0, 2, .52) 0%
+   ),
+   url("../img/slider/slider1.png")
+   center/cover no-repeat;
 }
 /* .slider-img {
    position: absolute;
    background: rgba(0, 0, 2, .52);
    
 } */
-.left-btn {
+/* .left-btn {
    position: absolute;
 }
 .caption {
@@ -84,7 +87,7 @@ ul {
 }
 .right-btn {
    position: absolute;
-}
+} */
 
 .headline {
   text-transform: uppercase;
