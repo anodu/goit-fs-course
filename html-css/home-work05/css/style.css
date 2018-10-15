@@ -62,6 +62,7 @@ ul {
 }
 
 .slider {
+   position: relative;
    height: 600px;
    background: linear-gradient(
       to right,
@@ -71,23 +72,46 @@ ul {
    url("../img/slider/slider1.png")
    center/cover no-repeat;
 }
-/* .slider-img {
+.left-btn {
    position: absolute;
-   background: rgba(0, 0, 2, .52);
-   
-} */
-/* .left-btn {
-   position: absolute;
+   top: 225px;
+   left: 245px;
+   background-color: #4ec6ab;
+   border: 0;
+   cursor: pointer;
+   padding: 0;
 }
 .caption {
    position: absolute;
+   font-family: "Roboto";
+  font-weight: 900;
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  top: 216px;
+  left: 410px;
+  margin: 0;
 }
 .sub-capt {
    position: absolute;
+   font-family: "Roboto";
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  top: 290px;
+  left: 410px;
+  margin: 0;
 }
 .right-btn {
    position: absolute;
-} */
+   top: 225px;
+   left: 1260px;
+   background-color: #4ec6ab;
+   border: 0;
+   cursor: pointer;
+   padding: 0;
+}
 
 .headline {
   text-transform: uppercase;
@@ -188,7 +212,7 @@ ul {
   left: 35px;
   top: 135px;
   width: 165px;
-  border-bottom: 1px solid #fff;
+  border: 1px solid #fff;
   background-color: rgba(0, 0, 0, -0.5);
   line-height: 3.5;
   font-size: 14px;
@@ -236,7 +260,7 @@ ul {
   top: 80px;
   left: 150px;
   background-color: rgba(0, 0, 0, -0.5);
-  border-bottom: 1px solid #fff;
+  border: 1px solid #fff;
   margin: 0;
   padding: 0;
   cursor: pointer;
@@ -246,15 +270,15 @@ button:focus {
 }
 .over-like:hover {
   background-color: rgb(26, 188, 156);
-  border-bottom: 1px solid #1abc9c;
+  border: 1px solid #1abc9c;
 }
 .over-arr:hover {
   background-color: rgb(26, 188, 156);
-  border-bottom: 1px solid #1abc9c;
+  border: 1px solid #1abc9c;
 }
 .over-clock:hover {
   background-color: rgb(26, 188, 156);
-  border-bottom: 1px solid #1abc9c;
+  border: 1px solid #1abc9c;
 }
 .foot {
    display: inline-block;
