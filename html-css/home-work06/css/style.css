@@ -1,16 +1,8 @@
-.head {
-   display: flex;
-}
-.menu-list {
-   display: flex;
-   text-decoration: none;
-}
-.menu-item {
-   text-decoration: none;
-   list-style: none;
-   /* text-decoration: none; */
-  text-transform: uppercase;
-}
-.serv-item {
-   display: flex;
+@import "./font.css";
+@import "./vars.css";
+
+
+p {
+   font-family: "KaushanScript";
+   font-weight: 400;
 }
