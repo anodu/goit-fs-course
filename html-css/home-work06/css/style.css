@@ -1,7 +1,25 @@
 @import "./font.css";
 @import "./vars.css";
 
-
+.head {
+   display: flex;
+   font-family: "Roboto";
+   font-weight: 300;
+   font-style: italic;
+}
+.menu-list {
+   display: flex;
+   text-decoration: none;
+}
+.menu-item {
+   text-decoration: none;
+   list-style: none;
+   /* text-decoration: none; */
+  text-transform: uppercase;
+}
+.serv-item {
+   display: flex;
+}
 p {
    font-family: "KaushanScript";
    font-weight: 400;
