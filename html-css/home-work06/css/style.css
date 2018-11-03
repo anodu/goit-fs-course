@@ -58,6 +58,14 @@ body {
   color: var(--hover-color);
 }
 .service-sub-title {
+   display: flex;
+   justify-content: center;
   font-family: 'KaushanScript';
   font-weight: 400;
+  font-size: 24px;
+  color: #323232;
+}
+.service-sub-title::first-letter {
+   text-transform: uppercase;
+   color: red;
 }
