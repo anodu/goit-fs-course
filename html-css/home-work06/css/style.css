@@ -1,26 +1,44 @@
 @import "./font.css";
 @import "./vars.css";
-
+.wrapper {
+   max-width: 1200px;
+}
 .head {
    display: flex;
-   font-family: "Roboto";
-   font-weight: 300;
-   font-style: italic;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 1200px;
+}
+.logo {
+   text-transform: capitalize;   word-spacing: -8px;
+   color: var(--header-color);
+   margin: 0;
+}
+.logo-link {
+   text-decoration: none;
 }
 .menu-list {
    display: flex;
-   text-decoration: none;
-}
-.menu-item {
-   text-decoration: none;
+   justify-content: space-between;
+   flex-flow: row wrap;
+   width: 490px;
    list-style: none;
-   /* text-decoration: none; */
-  text-transform: uppercase;
+   text-transform: uppercase;
+   padding: 0;
 }
-.serv-item {
-   display: flex;
+.item-link {
+   text-decoration: none;
+   color: var(--header-color);
 }
-p {
-   font-family: "KaushanScript";
-   font-weight: 400;
+.item-link:hover::after{
+   content: "";
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+   border-bottom: 3px solid var(--hover-color);
+   margin-top: 12px;
 }
+.item-link:hover {
+   color: var(--hover-color);
+ }
+ 
