@@ -1,5 +1,9 @@
 @import "./font.css";
 @import "./vars.css";
+body {
+   display: flex;
+   justify-content: center;
+}
 .wrapper {
    max-width: 1200px;
 }
