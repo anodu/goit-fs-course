@@ -1,48 +1,63 @@
 @import "./font.css";
 @import "./vars.css";
 body {
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .wrapper {
-   max-width: 1200px;
+  max-width: 1200px;
 }
 .head {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+  padding-top: 25px;
+  margin-bottom: 110px;
 }
 .logo {
-   text-transform: capitalize;   word-spacing: -8px;
-   color: var(--header-color);
-   margin: 0;
+  text-transform: capitalize;
+  word-spacing: -8px;
+  color: var(--header-color);
+  margin: 0;
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 .logo-link {
-   text-decoration: none;
+  text-decoration: none;
 }
 .menu-list {
-   display: flex;
-   justify-content: space-between;
-   flex-flow: row wrap;
-   width: 490px;
-   list-style: none;
-   text-transform: uppercase;
-   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width: 490px;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0;
 }
 .item-link {
-   text-decoration: none;
-   color: var(--header-color);
+  text-decoration: none;
+  color: var(--header-color);
+  font-family: "Montserrat";
+  font-weight: 400;
 }
-.item-link:hover::after{
-   content: "";
-   display: block;
-   width: 100%;
-   margin: 0 auto;
-   border-bottom: 3px solid var(--hover-color);
-   margin-top: 12px;
+.item-link:hover::after {
+  border-bottom: 3px solid var(--hover-color);
+}
+.item-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 3px solid rgba(255, 255, 255, 1);
+  margin-top: 12px;
+  cursor: default;
 }
 .item-link:hover {
-   color: var(--hover-color);
- }
- 
+  color: var(--hover-color);
+}
+.service-sub-title {
+  font-family: 'KaushanScript';
+  font-weight: 400;
+}
