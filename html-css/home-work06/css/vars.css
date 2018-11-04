@@ -2,5 +2,6 @@
 :root {
    --hover-color: rgb(243, 129, 129);
    --header-color: #95e1d3;
-   
+   --text-color: #999999;
+   --text-style: "Roboto";
 }
