@@ -9,7 +9,6 @@ body {
 }
 .head {
   display: flex;
-  flex-direction: row wrap;
   justify-content: space-between;
   width: 1200px;
   padding-top: 25px;
