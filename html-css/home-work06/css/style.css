@@ -58,13 +58,31 @@ body {
   color: var(--hover-color);
 }
 .service-sub-title {
-   display: flex;
-   justify-content: center;
-  font-family: 'KaushanScript';
+  display: flex;
+  justify-content: center;
+  font-family: "KaushanScript";
   font-weight: 400;
   font-size: 24px;
   color: #323232;
+  margin: 0 0 20px;
 }
 .service-sub-title:first-letter {
-   text-transform: uppercase;
+  text-transform: uppercase;
+}
+.service-title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+.wrap::after {
+  content: "";
+  display: block;
+  width: 60px;
+  margin: 0 auto;
+  border-bottom: 3px solid var(--hover-color);
+  margin-top: 40px;
 }
