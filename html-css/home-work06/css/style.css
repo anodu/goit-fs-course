@@ -85,11 +85,15 @@ body {
   border-bottom: 3px solid var(--hover-color);
   margin-top: 40px;
 }
+.wrap-serw {
+   display: flex;
+   justify-content: center;
+}
 .desc-serv {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  width: 1200px;
+  width: 1145px;
   margin-top: 65px;
 }
 .serv-item {
@@ -97,7 +101,6 @@ body {
   flex-flow: row wrap;
   justify-content: space-between;
   width: 320px;
-  
 }
 .serv-img {
   height: 32px;
