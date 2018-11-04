@@ -42,7 +42,7 @@ body {
   font-family: "Montserrat";
   font-weight: 400;
 }
-.item-link:hover ::after {
+.item-link:hover::after {
   border-bottom: 3px solid var(--hover-color);
 }
 .item-link::after {
