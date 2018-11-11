@@ -51,9 +51,11 @@ body {
   border-bottom: 3px solid rgba(255, 255, 255, 0);
   margin-top: 10px;
   cursor: default;
+  transition-duration: 200ms;
 }
 .item-link:hover {
   color: var(--hover-color);
+  transition-duration: 200ms;
 }
 .wrap {
   margin: 0;
@@ -147,3 +149,80 @@ body {
   font-size: 15px;
   line-height: 22px;
 }
+.our-team {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 90px;
+}
+.card-team:nth-child(-n + 2) {
+  margin-right: 30px;
+}
+.share {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 55px;
+  height: 55px;
+  background-color: rgb(252, 227, 138);
+  margin-right: 2px;
+}
+.share:hover {
+  background-color: rgb(149, 225, 211);
+  transition-duration: 200ms;
+}
+.team-name {
+  text-align: center;
+}
+.team-stack {
+  text-align: center;
+}
+.over-team {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 198px;
+  right: 75px;
+  z-index: 3;
+}
+.card-team:hover .foto-team {
+  transform: translate(-10px, -10px);
+  transition-duration: 200ms;
+}
+.card-team:hover .share {
+  display: flex;
+  transition-duration: 200ms;
+}
+.bg-img {
+  display: flex;
+  background-color: rgb(149, 225, 211);
+}
+.card-team {
+  position: relative;
+}
+.foto-team {
+   position: relative;
+   z-index: 1;
+}
+.bg-img2 {
+
+   display: flex;
+   position: relative;
+   z-index: 2;
+
+
+   background-image: linear-gradient(
+    90deg,
+    rgb(252, 227, 138) 0%,
+    rgb(243, 129, 129) 100%
+  );
+  width: 380px;
+  height: 470px;
+}
+
+
+
+
+
+
+
