@@ -188,10 +188,12 @@ body {
 .card-team:hover .foto-team {
   transform: translate(-10px, -10px);
   transition-duration: 200ms;
+
 }
 .card-team:hover .share {
   display: flex;
   transition-duration: 200ms;
+  
 }
 .bg-img {
   display: flex;
@@ -204,21 +206,8 @@ body {
    position: relative;
    z-index: 1;
 }
-.bg-img2 {
 
-   display: flex;
-   position: relative;
-   z-index: 2;
-
-
-   background-image: linear-gradient(
-    90deg,
-    rgb(252, 227, 138) 0%,
-    rgb(243, 129, 129) 100%
-  );
-  width: 380px;
-  height: 470px;
-}
+ 
 
 
 
