@@ -186,7 +186,7 @@ body {
 }
 .foto-hov:hover .foto-team {
   transform: translate(-10px, -10px);
-  transition-duration: 4000ms;
+  transition-duration: 200ms;
 }
 .foto-hov:hover .share {
   display: flex;
@@ -202,7 +202,7 @@ body {
 }
 .foto-hov:hover .grad {
   display: flex;
-  transition-duration: 4000ms;
+  transition-duration: 200ms;
   transform: translate(-10px, -10px);
 }
 .grad {
@@ -289,6 +289,7 @@ input[type="mail"] {
   font-family: "Montserrat";
   font-weight: 700;
   color: #fff;
+  text-transform: uppercase;
 }
 input[type="submit"] {
   height: 39px;
