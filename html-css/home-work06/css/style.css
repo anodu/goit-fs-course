@@ -185,28 +185,37 @@ body {
   right: 75px;
   z-index: 3;
 }
-.card-team:hover .foto-team {
+.foto-hov:hover .foto-team {
   transform: translate(-10px, -10px);
   transition-duration: 200ms;
 
 }
-.card-team:hover .share {
+.foto-hov:hover .share {
   display: flex;
   transition-duration: 200ms;
-  
+  z-index: 2;
 }
 .bg-img {
   display: flex;
   background-color: rgb(149, 225, 211);
+
 }
-.card-team {
+.foto-hov {
   position: relative;
 }
-.foto-team {
-   position: relative;
+.foto-hov:hover .grad {
+   display: flex;
+   transition-duration: 200ms;
+   transform: translate(-10px, -10px);
+}
+.grad {
+   display: none;
+   position: absolute;
+   width: 380px;
+   height: 470px;
+   background-image: linear-gradient( 90deg, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.9) 100%);
    z-index: 1;
 }
-
  
 
 
