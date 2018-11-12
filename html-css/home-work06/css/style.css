@@ -205,7 +205,7 @@ body {
 }
 .foto-hov:hover .grad {
   display: flex;
-  transition-duration: 200ms;
+  transition-duration: 4000ms;
   transform: translate(-10px, -10px);
 }
 .grad {
