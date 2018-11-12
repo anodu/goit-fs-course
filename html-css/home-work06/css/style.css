@@ -152,6 +152,9 @@ body {
   flex-flow: row wrap;
   margin-top: 90px;
 }
+.card-team {
+   width: 380px;
+}
 .card-team:nth-child(-n + 2) {
   margin-right: 30px;
 }
@@ -195,7 +198,7 @@ body {
 .bg-img {
   display: flex;
   background-color: rgb(149, 225, 211);
-  width: 380px;
+
 }
 .foto-hov {
   position: relative;
