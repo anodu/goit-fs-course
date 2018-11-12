@@ -271,12 +271,13 @@ body {
    display: flex;
   margin: 10px 0;
 }
-input[type="mail"] {
+input[type="email"] {
   height: 37px;
   width: 225px;
   padding: 0;
   margin: 0;
   border: 1px solid #cccccc;
+  outline: 0;
 }
 ::placeholder {
   font-family: var(--text-style);
