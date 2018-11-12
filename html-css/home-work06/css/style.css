@@ -188,7 +188,6 @@ body {
 .foto-hov:hover .foto-team {
   transform: translate(-10px, -10px);
   transition-duration: 200ms;
-
 }
 .foto-hov:hover .share {
   display: flex;
@@ -198,29 +197,37 @@ body {
 .bg-img {
   display: flex;
   background-color: rgb(149, 225, 211);
-
 }
 .foto-hov {
   position: relative;
 }
 .foto-hov:hover .grad {
-   display: flex;
-   transition-duration: 200ms;
-   transform: translate(-10px, -10px);
+  display: flex;
+  transition-duration: 200ms;
+  transform: translate(-10px, -10px);
 }
 .grad {
-   display: none;
-   position: absolute;
-   width: 380px;
-   height: 470px;
-   background-image: linear-gradient( 90deg, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.9) 100%);
-   z-index: 1;
+  display: none;
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
+  z-index: 1;
 }
- 
-
-
-
-
-
-
-
+.team-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #333333;
+}
+.team-stack {
+  color: var(--text-color);
+  font-family: var(--text-style);
+  font-weight: 300;
+  font-style: italic;
+}
