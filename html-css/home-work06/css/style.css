@@ -231,3 +231,16 @@ body {
   font-weight: 300;
   font-style: italic;
 }
+.line {
+   margin-top: 85px;
+   color: var(--text-color);
+   size: 1px;
+   width: 100%;
+}
+.content::after {
+   content: "";
+   margin-top: 85px;
+   display: block;
+   border-bottom: 1px solid var(--text-color);
+   width: 100%;
+}
