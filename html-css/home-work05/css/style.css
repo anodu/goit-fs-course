@@ -155,11 +155,17 @@ ul {
   width: 255px;
   margin: 0 auto;
 }
+.card:hover .card-text{
+   background-color: rgb(26, 188, 156);
+}
+.card-text {
+   background-color: rgb(50, 50, 50);
+}
 .card-name {
   float: left;
   text-transform: uppercase;
   width: 200px;
-  background-color: #323232;
+  background-color: rgba(50, 50, 50, 0);
   margin: 0;
   padding: 0;
   color: #fff;
@@ -174,7 +180,7 @@ ul {
   display: inline-block;
   font-size: 18px;
   color: #fff;
-  background-color: rgba(50, 50, 50, 0.44);
+  background-color: rgba(255, 255, 255, .44);
   width: 55px;
   margin: 0;
   padding: 0;
@@ -182,12 +188,6 @@ ul {
   text-align: center;
   font-family: "Roboto";
   font-weight: 900;
-}
-.card:hover .card-name {
-  background-color: #1abc9c;
-}
-.card:hover .card-price {
-  background-color: #7fd9c7;
 }
 .card:hover .overlay {
   opacity: 1;
@@ -218,6 +218,7 @@ ul {
   cursor: pointer;
   text-align: right;
   padding: 0;
+  outline: none;
 }
 .over-text {
   margin-right: 20px;
@@ -240,6 +241,7 @@ ul {
   margin: 0;
   padding: 0;
   cursor: pointer;
+  outline: none;
 }
 .over-arr {
   display: block;
@@ -251,6 +253,7 @@ ul {
   margin: 0;
   padding: 0;
   cursor: pointer;
+  outline: none;
 }
 .over-clock {
   display: block;
@@ -262,8 +265,6 @@ ul {
   margin: 0;
   padding: 0;
   cursor: pointer;
-}
-button:focus {
   outline: none;
 }
 .over-like:hover {
