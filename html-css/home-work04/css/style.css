@@ -93,14 +93,18 @@ background-color: rgb(233, 240, 253);
 .card {
   float: left;
   width: 255px;
-  /* height: 320px; */
+}
+.test {
+   background-color: rgb(50, 50, 50);
+}
+.card:hover .test{
+   background-color: rgb(26, 188, 156);
 }
 .card-name {
   float: left;
   text-transform: uppercase;
   width: 200px;
-  /* height: 40px; */
-  background-color: #323232;
+  background-color: rgba(50, 50, 50, 0);
   margin: 0;
   padding: 0;
   color: #fff;
@@ -115,9 +119,8 @@ background-color: rgb(233, 240, 253);
   display: inline-block;
   font-size: 18px;
   color: #fff;
-  background-color: rgba(50, 50, 50, .44);
+  background-color: rgba(255, 255, 255, .44);
   width: 55px;
-  /* height: 40px; */
   margin: 0;
   padding: 0;
   line-height: 2.2;
@@ -125,12 +128,12 @@ background-color: rgb(233, 240, 253);
   font-family: "Roboto";
   font-weight: 900;
 }
-.card:hover .card-name {
-  background-color: #1abc9c;
+/* .card:hover .card-name {
+  background-color: rgb(26, 188, 156);
 }
 .card:hover .card-price {
-  background-color: #7fd9c7;
-}
+  background-color: rgba(26, 188, 156);
+} */
 .heading-news {
   text-transform: uppercase;
   color: #555252;
