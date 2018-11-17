@@ -193,7 +193,7 @@ body {
   transition-duration: 200ms;
   z-index: 2;
 }
-.becgraund-img {
+.backgraund-img {
   display: flex;
   background-color: rgb(149, 225, 211);
 }
