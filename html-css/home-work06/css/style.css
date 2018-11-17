@@ -183,7 +183,6 @@ body {
   margin: 0 auto;
   align-self: center;
   z-index: 3;
-  width: inherit;
 }
 .foto-hover:hover .foto-team {
   transform: translate(-10px, -10px);
@@ -197,6 +196,10 @@ body {
 .backgraund-img {
   display: flex;
   background-color: rgb(149, 225, 211);
+  width: inherit;
+}
+.foto-team{
+   width: inherit;
 }
 .foto-hover {
   position: relative;
@@ -266,11 +269,8 @@ body {
   font-size: 15px;
   font-family: "Montserrat";
   font-weight: 400;
-  margin-left: 5px;
+  margin-left: 4px;
 }
-/* .footer-link-text {
-  margin-left: 5px;
-} */
 .text-footer {
   margin: 25px 0;
 }
@@ -297,7 +297,7 @@ input[type="email"] {
   font-weight: 300;
   font-style: italic;
   color: #cccccc;
-  margin-right: 10px;
+  padding-left: 10px;
 }
 #send-name {
   font-size: 14px;
