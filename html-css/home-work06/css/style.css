@@ -201,20 +201,31 @@ body {
   position: relative;
 }
 .foto-hover:hover .gradient {
-  display: flex;
+  opacity: 1;
   transition-duration: 200ms;
   transform: translate(-10px, -10px);
 }
 .gradient {
-  display: none;
+  display: flex;
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(
+  background-image: -moz-linear-gradient(
     90deg,
     rgba(252, 227, 138, 0.9) 0%,
     rgba(243, 129, 129, 0.9) 100%
   );
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
+  background-image: -ms-linear-gradient(
+    90deg,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
+  opacity: 0;
   z-index: 1;
 }
 .team-name {
@@ -301,4 +312,27 @@ input[type="submit"] {
   border: 0;
   outline: 0;
   margin: 0;
+}
+.Rectangle_14 {
+  background-image: -moz-linear-gradient(
+    90deg,
+    rgb(252, 227, 138) 0%,
+    rgb(243, 129, 129) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(252, 227, 138) 0%,
+    rgb(243, 129, 129) 100%
+  );
+  background-image: -ms-linear-gradient(
+    90deg,
+    rgb(252, 227, 138) 0%,
+    rgb(243, 129, 129) 100%
+  );
+  position: absolute;
+  left: 350px;
+  top: 970px;
+  width: 380px;
+  height: 470px;
+  z-index: 22;
 }
