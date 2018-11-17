@@ -94,10 +94,10 @@ background-color: rgb(233, 240, 253);
   float: left;
   width: 255px;
 }
-.test {
+.card-text {
    background-color: rgb(50, 50, 50);
 }
-.card:hover .test{
+.card:hover .card-text{
    background-color: rgb(26, 188, 156);
 }
 .card-name {
@@ -128,12 +128,7 @@ background-color: rgb(233, 240, 253);
   font-family: "Roboto";
   font-weight: 900;
 }
-/* .card:hover .card-name {
-  background-color: rgb(26, 188, 156);
-}
-.card:hover .card-price {
-  background-color: rgba(26, 188, 156);
-} */
+
 .heading-news {
   text-transform: uppercase;
   color: #555252;
@@ -157,10 +152,10 @@ background-color: rgb(233, 240, 253);
 .news {
   float: left;
   width: 350px;
-  /* height: 495px; */
 }
 .foto-news {
   margin-bottom: 17px;
+  width: inherit;
 }
 .title-news {
   margin: 0;
