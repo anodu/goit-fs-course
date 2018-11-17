@@ -183,6 +183,7 @@ body {
   margin: 0 auto;
   align-self: center;
   z-index: 3;
+  width: inherit;
 }
 .foto-hover:hover .foto-team {
   transform: translate(-10px, -10px);
@@ -265,10 +266,11 @@ body {
   font-size: 15px;
   font-family: "Montserrat";
   font-weight: 400;
-}
-.footer-link-text {
   margin-left: 5px;
 }
+/* .footer-link-text {
+  margin-left: 5px;
+} */
 .text-footer {
   margin: 25px 0;
 }
