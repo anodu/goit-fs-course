@@ -313,26 +313,3 @@ input[type="submit"] {
   outline: 0;
   margin: 0;
 }
-.Rectangle_14 {
-  background-image: -moz-linear-gradient(
-    90deg,
-    rgb(252, 227, 138) 0%,
-    rgb(243, 129, 129) 100%
-  );
-  background-image: -webkit-linear-gradient(
-    90deg,
-    rgb(252, 227, 138) 0%,
-    rgb(243, 129, 129) 100%
-  );
-  background-image: -ms-linear-gradient(
-    90deg,
-    rgb(252, 227, 138) 0%,
-    rgb(243, 129, 129) 100%
-  );
-  position: absolute;
-  left: 350px;
-  top: 970px;
-  width: 380px;
-  height: 470px;
-  z-index: 22;
-}
