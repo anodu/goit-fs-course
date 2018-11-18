@@ -1,9 +1,8 @@
 @import "./font.css";
 @import "./vars.css";
-.wraper {
-  display: flex;
-  justify-content: center;
+.wrapper {
   width: 940px;
+  margin: 0 auto;
 }
 .header {
   display: flex;
@@ -50,4 +49,30 @@
   display: flex;
   flex-flow: column wrap;
   text-align: center;
+}
+.title {
+}
+.subtitle {
+}
+.services-benefits {
+  display: flex;
+  justify-content: space-between;
+}
+.benefits-items {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  width: 275px;
+}
+.img-border {
+  display: flex;
+  align-self: center;
+  width: 66px;
+  height: 66px;
+  border-radius: 36px;
+  border: 2px solid var(--hover-color);
+}
+.benefits-img {
+  align-self: center;
+  margin: 0 auto;
 }
