@@ -1,2 +1,50 @@
 @import "./font.css";
 @import "./vars.css";
+.wraper {
+  display: flex;
+  justify-content: center;
+  width: 940px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin-bottom: 125px;
+}
+.logo-link {
+  text-decoration: none;
+}
+.logo {
+  text-transform: capitalize;
+  color: var(--hover-color);
+  margin: 0;
+  font-size: 26px;
+}
+.menu-list {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0;
+}
+.menu-list-item {
+  padding-right: 40px;
+}
+.menu-list-item:last-child {
+  padding-right: 0;
+}
+.item-link {
+   text-decoration: none;
+   color: var(--main-color);
+   font-family: "Montserrat";
+   font-weight: 700;
+   font-size: 14px;
+}
+.item-link:hover {
+   color: var(--hover-color);
+} 
+
+
+
+
+
+

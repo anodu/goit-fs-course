@@ -1,4 +1,8 @@
-
 :root {
-   
+  --main-color: rgb(34, 34, 34);
+  --second-color: rgb(119, 119, 119);
+  --hover-color: rgb(254, 209, 54);
+  --form-color: rgb(187, 187, 187);
+  --third-color: rgb(255, 255, 255);
 }
+ 
