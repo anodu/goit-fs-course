@@ -58,6 +58,7 @@
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 40px;
+  margin: 0;
 }
 .subtitle {
   font-family: "Roboto";
@@ -65,9 +66,10 @@
   font-size: 16px;
   font-style: italic;
   color: var(--second-color);
+  margin: 20px 0 0;
 }
 .services-benefits {
-  margin-top: 75px;
+  margin: 75px 0 120px;
   display: flex;
   justify-content: space-between;
 }
@@ -88,4 +90,20 @@
 .benefits-img {
   align-self: center;
   margin: 0 auto;
+}
+.benefits-title {
+  margin: 20px 0;
+  text-transform: capitalize;
+  color: var(--main-color);
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+}
+.benefits-description {
+  margin: 0;
+  line-height: 1.5;
+  color: var(--second-color);
+  font-size: 14px;
+  font-family: "Roboto_Slab";
+  font-weight: 400;
 }
