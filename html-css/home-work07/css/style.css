@@ -17,7 +17,9 @@
   text-transform: capitalize;
   color: var(--hover-color);
   margin: 0;
-  font-size: 26px;
+  font-size: 28px;
+  font-family: "Dansing_Script";
+  font-weight: 700;
 }
 .menu-list {
   display: flex;
@@ -51,10 +53,18 @@
   text-align: center;
 }
 .title {
-
+  text-transform: uppercase;
+  color: var(--main-color);
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
 }
 .subtitle {
-   
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  color: var(--second-color);
 }
 .services-benefits {
   margin-top: 75px;
