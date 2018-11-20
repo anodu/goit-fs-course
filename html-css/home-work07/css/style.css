@@ -114,13 +114,14 @@
   font-weight: 400;
 }
 .inner {
-  /* background: var(--main-color) url(../img/map.png) no-repeat right 120px; */
+  background: var(--main-color) url(../img/map.png) no-repeat right 120px;
   width: 1400px;
   height: 800px;
 }
 .contact {
   width: 940px;
   display: flex;
+  flex-flow: column;
   margin: 0 auto;
 }
 .contact-name {
@@ -146,3 +147,69 @@
   color: var(--second-color);
   margin: 25px 0 75px;
 }
+.contact-form {
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: space-between;
+}
+
+.form-contact-name {
+   width: 455px;
+   height: 50px;
+   border-radius: 3px;
+   border: 0;
+  outline: 0;
+  padding: 0;
+}
+.form-contact-name::placeholder {
+   color: var(--form-color);
+   text-transform: uppercase;
+}
+.form-contact-email {
+   width: 455px;
+   height: 50px;
+   border-radius: 3px;
+   border: 0;
+  outline: 0;
+  padding: 0;
+}
+.form-contact-email::placeholder {
+   color: var(--form-color);
+   text-transform: uppercase;
+}
+.form-contact-subject {
+   width: 455px;
+   height: 50px;
+   border-radius: 3px;
+   border: 0;
+  outline: 0;
+  padding: 0;
+}
+.form-contact-subject::placeholder {
+   color: var(--form-color);
+   text-transform: uppercase;
+}
+.form-contact-message {
+   width: 455px;
+   height: 210px;
+   border-radius: 3px;
+   border: 0;
+  outline: 0;
+  padding: 0;
+}
+.form-contact-message::placeholder {
+   color: var(--form-color);
+   text-transform: uppercase;
+}
+.form-contact-submit {
+   height: 65px;
+   width: 240px;
+   text-transform: uppercase;
+   color: rgb(255, 255, 255);
+   background-color: rgb(254, 209, 54);
+   border-radius: 3px;
+   border: 0;
+  outline: 0;
+  padding: 0;
+}
+ 
