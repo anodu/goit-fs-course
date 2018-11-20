@@ -136,7 +136,7 @@
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 40px;
-  color: rgb(255, 255, 255);
+  color: var(--third-color);
   margin: 0;
 }
 .contact-subtitle {
@@ -148,68 +148,77 @@
   margin: 25px 0 75px;
 }
 .contact-form {
-   display: flex;
-   flex-flow: column wrap;
-   justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
 }
-
+.left-column {
+  display: flex;
+  flex-flow: column;
+}
 .form-contact-name {
-   width: 455px;
-   height: 50px;
-   border-radius: 3px;
-   border: 0;
+  width: 455px;
+  height: 50px;
+  border-radius: 3px;
+  border: 0;
   outline: 0;
   padding: 0;
+  margin: 0 30px 30px 0;
 }
 .form-contact-name::placeholder {
-   color: var(--form-color);
-   text-transform: uppercase;
+  color: var(--form-color);
+  text-transform: uppercase;
 }
 .form-contact-email {
-   width: 455px;
-   height: 50px;
-   border-radius: 3px;
-   border: 0;
+  width: 455px;
+  height: 50px;
+  border-radius: 3px;
+  border: 0;
   outline: 0;
   padding: 0;
+  margin: 0 30px 30px 0;
 }
 .form-contact-email::placeholder {
-   color: var(--form-color);
-   text-transform: uppercase;
+  color: var(--form-color);
+  text-transform: uppercase;
 }
 .form-contact-subject {
-   width: 455px;
-   height: 50px;
-   border-radius: 3px;
-   border: 0;
+  width: 455px;
+  height: 50px;
+  border-radius: 3px;
+  border: 0;
   outline: 0;
   padding: 0;
+  margin: 0 30px 30px 0;
 }
 .form-contact-subject::placeholder {
-   color: var(--form-color);
-   text-transform: uppercase;
+  color: var(--form-color);
+  text-transform: uppercase;
 }
 .form-contact-message {
-   width: 455px;
-   height: 210px;
-   border-radius: 3px;
-   border: 0;
+  width: 455px;
+  height: 210px;
+  border-radius: 3px;
+  border: 0;
   outline: 0;
   padding: 0;
+  margin: 0 0 30px;
 }
 .form-contact-message::placeholder {
-   color: var(--form-color);
-   text-transform: uppercase;
+  color: var(--form-color);
+  text-transform: uppercase;
 }
 .form-contact-submit {
-   height: 65px;
-   width: 240px;
-   text-transform: uppercase;
-   color: rgb(255, 255, 255);
-   background-color: rgb(254, 209, 54);
-   border-radius: 3px;
-   border: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin: 0 auto;
+  height: 65px;
+  width: 240px;
+  text-transform: uppercase;
+  color: var(--third-color);
+  background-color: rgb(254, 209, 54);
+  border-radius: 3px;
+  border: 0;
   outline: 0;
   padding: 0;
 }
- 
