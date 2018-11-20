@@ -116,7 +116,6 @@
 .inner {
   background: var(--main-color) url(../img/map.png) no-repeat right 120px;
   width: 1400px;
-  height: 800px;
 }
 .contact {
   width: 940px;
@@ -150,6 +149,7 @@
 .contact-form {
   display: flex;
   flex-flow: row wrap;
+  margin-bottom: 115px;
 }
 .left-column {
   display: flex;
@@ -209,7 +209,6 @@
 }
 .form-contact-submit {
   justify-content: center;
-  margin-top: 30px;
   margin: 0 auto;
   height: 65px;
   width: 240px;
