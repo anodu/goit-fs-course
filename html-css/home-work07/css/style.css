@@ -1,14 +1,18 @@
 @import "./font.css";
 @import "./vars.css";
 .wrapper {
-  width: 940px;
+  display: flex;
+  width: 1400px;
   margin: 0 auto;
+  flex-flow: column;
+  align-items: center;
 }
 .header {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
   margin-bottom: 125px;
+  width: 940px;
 }
 .logo-link {
   text-decoration: none;
@@ -45,14 +49,16 @@
 }
 .services {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
+  width: 940px;
+  margin: 0 auto;
 }
-.services-title {
+.services-name {
   display: flex;
   flex-flow: column wrap;
   text-align: center;
 }
-.title {
+.services-title {
   text-transform: uppercase;
   color: var(--main-color);
   font-family: "Montserrat";
@@ -60,7 +66,7 @@
   font-size: 40px;
   margin: 0;
 }
-.subtitle {
+.services-subtitle {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
@@ -106,4 +112,37 @@
   font-size: 14px;
   font-family: "Roboto_Slab";
   font-weight: 400;
+}
+.inner {
+  background: var(--main-color) url(../img/map.png) no-repeat right 120px;
+  width: 1400px;
+  height: 800px;
+}
+.contact {
+  width: 940px;
+  display: flex;
+  margin: 0 auto;
+}
+.contact-name {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  padding-top: 110px;
+  align-items: center;
+}
+.contact-title {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+.contact-subtitle {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  color: var(--second-color);
+  margin: 25px 0 75px;
 }
