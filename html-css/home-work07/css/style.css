@@ -113,7 +113,7 @@
   font-family: "Roboto_Slab";
   font-weight: 400;
 }
-.inner {
+.contact-background {
   background: var(--main-color) url(../img/map.png) no-repeat right 120px;
   width: 1400px;
 }
